@@ -17,7 +17,7 @@ app.use(
 app.get('/', (req, res) => {
     res
         .status(200)
-        .send('Hello server is running on Heroku!!')
+        .send('Hello server is running on Heroku. Now how do I use a database?!!')
         .end();
 });
 
